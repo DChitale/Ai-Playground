@@ -1,0 +1,75 @@
+.app {
+  font-family: Arial;
+  text-align: center;
+  max-width: 700px;
+  margin: auto;
+  padding: 20px;
+  background-color: rgb(22, 22, 22);
+  color: white;
+}
+.message code {
+  background-color: #f1f1f1;
+  padding: 2px 5px;
+  border-radius: 4px;
+  font-family: monospace;
+  font-size: 14px;
+}
+
+.chat-box {
+  height: 400px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 20px 0;
+  background: #f9f9f9;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.message {
+  margin: 10px 0;
+}
+
+.message.user {
+  color: blue;
+}
+
+.message.assistant {
+  color: green;
+}
+
+.input-area {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+}
+
+input[type="file"] {
+  padding: 6px;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.model-select {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+select {
+  padding: 6px;
+  font-size: 14px;
+  border-radius: 6px;
+}
